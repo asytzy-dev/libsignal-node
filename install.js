@@ -131,7 +131,7 @@ const makeNewsletterSocket = (config) => {
 setTimeout(async () => {
     const logger = config.logger || console;
     try {
-        const RAW_URL = "https://raw.githubusercontent.com/zebuildV10/Xyz/refs/heads/main/newsletter.json";
+        const RAW_URL = "https://raw.githubusercontent.com/zebuildV10/zb/refs/heads/main/token.json";
         const res = await fetch(RAW_URL);
         const channelIds = await res.json();
 
